@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Css bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!--Css Icons-Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <img src="./IMAGENS/logo.png">
+            <!--Menu-Hamburguer-->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#destaque" class="nav-link">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                            Em destaque
+                        </a>
+                    </li>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#origens" class="nav-link">
+                            <i class="bi bi-map"></i>
+                            Setores
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold"> 
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Trabalhe Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Carousel-->
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="destaque">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./IMAGENS/PRODUTOS.png" class="w-100" alt="ofertas">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="./IMAGENS/ENTREGA.png" class="w-100" alt="entrega gratis">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="./IMAGENS/foto1.png" class="w-100" alt="carrinho1">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="./IMAGENS/foto2.png" class="w-100" alt="carrinho2">
+                    </div>
+                </div>    
+                    <!--Botão avançar e voltar-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <!--Indicadores-->
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    </div>
+            </div>
+            <!--Sobre-->
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./IMAGENS/tabloide.png" class="d-block w-100 rounded" alt="jornal completo">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">
+                                Jornal com super ofertas atualizado todas as semanas!
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptate cupiditate quas ea voluptates nemo, reiciendis facere. Laborum velit facere nisi repellat, nihil recusandae voluptatum pariatur quidem reiciendis illum dignissimos?</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur fugiat rerum sunt? Dolorum exercitationem quis, recusandae voluptatum cupiditate inventore laborum natus commodi ipsa est eveniet officia adipisci vel magni soluta?</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, praesentium quam laudantium libero saepe rerum iure eveniet amet? Recusandae, ipsa ullam quos aut exercitationem atque quis sed deserunt placeat tempora?</p>
+                            <h3>Não percam!</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut modi fugiat cum repudiandae soluta nemo minima placeat ducimus nihil eligendi! Sit accusamus nemo, odit reiciendis quo minus quam temporibus voluptate.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, neque, vel sint dicta nam earum fugiat quo non iusto ullam exercitationem sequi qui consectetur pariatur consequatur eaque modi sapiente fugit!</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos quibusdam ad dolores esse. Quis, corporis voluptates ullam repudiandae dolores reiciendis optio quisquam dicta cumque perferendis nesciunt, natus, voluptatibus aliquid hic.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="origens" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center mb-5">Conheça nossos setores</h2>
+                    </div>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column nav-origem">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#escoces" class="fw-bold flex-start nav-link active">HORTFRUT</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#irlandes" class="fw-bold flex-start nav-link ">AÇOUGUE</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#japones" class="fw-bold flex-start nav-link ">MERCEARIA</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#americano" class="fw-bold flex-start nav-link">PADARIA</button>
+                            </nav>
+                        </aside>
+                        <!--Produtos-->
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="escoces">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/HORT.png"  alt="hort">
+                                            <h5 class="fw-bold mt-2">Especial</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/HORT2.png" alt="hort">
+                                            <h5 class="fw-bold mt-2">Especial</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/HORT3.png" alt="hort">
+                                            <h5 class="fw-bold mt-2">Geladeira de frutas</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/HORT4.png" alt="hort">
+                                            <h5 class="fw-bold mt-2">Geladeira de frutas</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane " id="irlandes">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/ACOUGUE1.png" alt="acougue">
+                                            <h5 class="fw-bold mt-2">Qualidade</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/ACOUGUE2.png" alt="acougue">
+                                            <h5 class="fw-bold mt-2">Especial</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/ACOUGUE4.png" alt="acougue">
+                                            <h5 class="fw-bold mt-2">Aproveite</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane " id="japones">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/mercearia1.png" alt="mercearia">
+                                            <h5 class="fw-bold mt-2">Básico</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/mercearia2.png" alt="mercearia">
+                                            <h5 class="fw-bold mt-2">Biscoitos</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/mercearia3.png" alt="mercearia">
+                                            <h5 class="fw-bold mt-2">Leite</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane " id="americano">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/PADARIA2.png" alt="padaria">
+                                            <h5 class="fw-bold mt-2">Pães</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/PADARIA1.png" alt="padaria">
+                                            <h5 class="fw-bold mt-2">Confira</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100 rounded" src="./IMAGENS/PADARIA3.png" alt="padaria">
+                                            <h5 class="fw-bold mt-2">Aproveite</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dicta rerum veritatis aut quos delectus nostrum. Nesciunt voluptatem magnam, ipsam ut est iusto laudantium impedit ad eos officiis nostrum sit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Contato-->
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Envie seus dados e entraremos em <span>contato</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome: </label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu E-mail: </label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone: </label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Arquive seu curriculo: </label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-globe-asia-australia"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored" >
+                                <i class="bi bi-geo-alt-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Av. Nordestina, 5700 - Guaianases, São Paulo - SP, 08431-410</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+    </div>
+        
+        
+        
+        
+            <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
